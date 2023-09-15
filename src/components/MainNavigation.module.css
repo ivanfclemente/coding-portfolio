@@ -1,0 +1,22 @@
+.header {
+  background-color: #252424;
+  margin: auto;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+  display: flex;
+  gap: 1rem;
+}
+
+.list a {
+  text-decoration: none;
+  color: #fbd997;
+}
+
+.list a:hover,
+.list a.active {
+  color: #fab833;
+}

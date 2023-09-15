@@ -1,0 +1,67 @@
+.clockContainer {
+  height: 100vh;
+  width: 100vw;
+  background: #3f3f3f;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.clock {
+  height: 500px;
+  width: 500px;
+}
+
+.header {
+  height: 80px;
+}
+
+.header2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 56px;
+}
+
+.title2 {
+  font-size: 26px;
+  margin-top: 0;
+}
+.clickable {
+  cursor: pointer;
+}
+
+.breakLabel,
+.sessionLabel {
+  margin: auto;
+}
+
+.timer {
+  border: 7px solid #272727;
+  margin: 20px auto 10px auto;
+  width: 270px;
+  height: 170px;
+  border-radius: 50px;
+  position: relative;
+}
+
+.timerLabel {
+  margin: 5px;
+}
+
+.timeLeft {
+  font-size: 80px;
+}
+
+.control {
+  padding: 0 10px;
+  cursor: pointer;
+}
